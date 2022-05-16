@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RealShoeStore</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/logo.png" alt="" class="logo">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search..">
+                    <img src="./img/search1.png">
+                </div>
+            </div>
+            <div class="navItem">
+                <a href="#product">
+                    <span class="limitedOffer">Limited Offer!</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="navBottom">
+            <h3 class="menuItem">NIKE</h3>
+            <h3 class="menuItem">ADIDAS</h3>
+            <h3 class="menuItem">SPORTO</h3>
+            <h3 class="menuItem">ROYAL</h3>
+            <h3 class="menuItem">RED CHIEF</h3>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderwrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" class="sliderImg" background="transparent">
+                <div class="sliderBg sliderBg1"></div>
+                <h1 class="sliderTitle"> NIKE<br>NEW<br>SEASON </h1>
+                <h2 class="sliderPrice"> &dollar;119</h2>
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" class="sliderImg" background="transparent">
+                <div class="sliderBg sliderBg2"></div>
+                <h1 class="sliderTitle">ADIDAS<br>NEW<br>SEASON </h1>
+                <h2 class="sliderPrice"> &dollar;125</h2>
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" class="sliderImg" background="transparent">
+                <div class="sliderBg sliderBg3"></div>
+                <h1 class="sliderTitle"> SPORTO<br>NEW<br>SEASON </h1>
+                <h2 class="sliderPrice"> &dollar;140</h2>
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" class="sliderImg" background="transparent">
+                <div class="sliderBg sliderBg4"></div>
+                <h1 class="sliderTitle"> ROYAL<br>NEW<br>SEASON </h1>
+                <h2 class="sliderPrice"> &dollar;110</h2>
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" class="sliderImg" background="transparent">
+                <div class="sliderBg sliderBg5"></div>
+                <h1 class="sliderTitle">RED CHIEF<br>NEW<br>SEASON </h1>
+                <h2 class="sliderPrice"> &dollar;150</h2>
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="features">
+        <div class="feature">
+            <img class="feature-icon" src="img/return.png" alt="" srcset="">
+            <span class="feature-title">30 DAYS REPLACEMENT</span>
+            <span class="feature-desc">Replacemnt policy on 90% of the products.</span>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="img/shipping.png" alt="" srcset="">
+            <span class="feature-title">FREE SHIPPING</span>
+            <span class="feature-desc">Providing free shipping world wide.</span>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="img/gift.png" alt="" srcset="">
+            <span class="feature-title">GIFT CARDS</span>
+            <span class="feature-desc">Obtain gift cards and chances to win amazing prizes.</span>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="img/contact.png" alt="" srcset="">
+            <span class="feature-title">CONTACT US</span>
+            <span class="feature-desc">Provide 24x7 Services.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <div class="product-item">
+            <img src="./img/air.png" alt="" class="product-img">
+        </div>
+        <div class="product-detail">
+            <div class="product-title">NIKE</div>
+            <span class="product-price">&dollar;119</span>
+            <div class="product-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla placeat nisi
+                iste
+                quibusdam provident vitae .</div>
+            <div class="colors">
+                <div class="color-black"></div>
+                <div class="color-blue"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+
+            <div class="product-buy">
+                <button class="button-buy">Buy Now!</button>
+            </div>
+        </div>
+
+
+        <div class="payment">
+            <span class="cross">X</span>
+            <div class="contactDetail">
+                <h1 class="contactDetailHead">Personal Information</h1>
+                <label class="paymentLabel" for="name">NAME</label>
+                <input class="paymentInput" type="text" id="name" placeholder="Vijay Kumar">
+                <label class="paymentLabel" for="address">ADDRESS</label>
+                <input class="paymentInput" type="text" id="address" placeholder="Street No. 4 .....">
+                <label class="paymentLabel" for="phone">CONTACT</label>
+                <input class="paymentInput" type="text" id="phone" placeholder="+91 8252xxxxxx">
+            </div>
+
+            <div class="cardDetail">
+                <h1 class="contactDetailHead">Card Details</h1>
+                <label class="paymentLabel" for="card">Card Number</label>
+                <input class="paymentInput" type="text" id="card" placeholder="6256 XXXX XXXX">
+                <label for="expiryDate" class="paymentLabel">Expiry Date</label>
+                <div class="expiry-container">
+                    <input id="expiryDate" class="paymentInput widthsm" type="text" placeholder="dd">
+                    <input class="paymentInput widthsm" type="text" placeholder="yy">
+                </div>
+                <input class="paymentInput widthsm" type="text" placeholder="CVV">
+
+                <div class="cardDetailIcon">
+                    <img class="cardImg" src="./img/visa.png" alt="">
+                    <img class="cardImg" src="./img/master.png" alt="">
+                </div>
+            </div>
+            <button class="confirmBuy">CONFIRM</button>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <h2 class="gallery-item-head">BE Yourself!</h2>
+            <img class="gallery-photos" src="./img/gallery2.jpg" alt="gallery-photos">
+        </div>
+
+        <div class=" gallery-item">
+            <img class="gallery-photos" src="./img/gallery3.jpg" alt="">
+            <h2 class="gallery-item-head">Start Your New Journey!</h2>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="gallery-item-head">Just Do It!</h2>
+            <img class="gallery-photos" src="./img/gallery2.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img class="nsImg" src="./img/gallery3.jpg">
+        </div>
+
+        <div class="nsItem">
+            <div class="nsItem2">
+                <h1 class="nsHead">New Season Is Here</h1>
+                <h1 class="nsHead">Sale is Live</h1>
+                <a href="#nav">
+                    <button class="nsButton">Choose Your Style</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="nsItem">
+            <img class="nsImg" src="./img/gallery4.jpg">
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footerLeft">
+            <div class="fLeftItem">
+                <h2 class="footerhead">About Us</h2>
+                <ul class="fMenuList">
+                    <li class="fMenuListItem">Company</li>
+                    <li class="fMenuListItem">Careers</li>
+                    <li class="fMenuListItem">Stores</li>
+                    <li class="fMenuListItem">Affiliates</li>
+                    <li class="fMenuListItem">Contact</li>
+                </ul>
+            </div>
+            <div class="fLeftItem">
+                <h2 class="footerhead">Useful Links</h2>
+                <ul class="fMenuList">
+                    <li class="fMenuListItem">Feedback</li>
+                    <li class="fMenuListItem">FAQ</li>
+                    <li class="fMenuListItem">Refund</li>
+                    <li class="fMenuListItem">Support</li>
+                    <li class="fMenuListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="fLeftItem">
+                <h2 class="footerhead">Products</h2>
+                <ul class="fMenuList">
+                    <li class="fMenuListItem">NIKE</li>
+                    <li class="fMenuListItem">ADIDAS</li>
+                    <li class="fMenuListItem">SPORTO</li>
+                    <li class="fMenuListItem">ROYAL</li>
+                    <li class="fMenuListItem">RED CHIEF</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <h2 class="footerhead">Contact Us</h2>
+            <div class="fRightContact">
+                <input type="text" class="fRightInput" placeholder="@gamil.com">
+                <div><button class="fRightJoin">Join!</button>
+                </div>
+            </div>
+            <div class="fRightIcon">
+                <img class="fRightIconImg" src="./img/whatsapp.png" alt="whatsapp">
+                <img class="fRightIconImg" src="./img/twitter.png" alt="whatsapp">
+                <img class="fRightIconImg" src="./img/facebook.png" alt="whatsapp">
+                <img class="fRightIconImg" src="./img/instagram.png" alt="whatsapp">
+            </div>
+
+            <div class="copyright">Copyright &copy; 2022 - @RealShoeStore.com </div>
+        </div>
+    </footer>
+    <script src="./JS/app.js"></script>
+</body>
+
+</html>
